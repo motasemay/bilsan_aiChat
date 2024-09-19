@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilasn AI</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+
+<body>
+    <div class="chat-app">
+        <div class="sidebar">
+            <h2>Suggested Questions</h2>
+            <ul>
+                <li><a href="#" class="suggestion" data-message="What's the weather like today?">What's the weather like
+                        today?</a></li>
+                <li><a href="#" class="suggestion" data-message="Tell me a joke.">Tell me a joke.</a></li>
+                <li><a href="#" class="suggestion" data-message="How do I reset my password?">How do I reset my
+                        password?</a></li>
+                <li><a href="#" class="suggestion" data-message="Can you help me with my account?">Can you help me with
+                        my account?</a></li>
+            </ul>
+        </div>
+
+
+        <div class="chat-container">
+
+
+            <div class="chat-header">
+                <div class="mContainer">
+                    <img src="bislanLogo.png" alt="bislanLogo">
+                    <span>Chatbot</span>
+                </div>
+            </div>
+            <div class="chat-messages">
+
+                <div class="mContainer" id="chatMessages">
+
+                </div>
+            </div>
+
+
+            <div class="chat-input">
+                <div class="mContainer">
+                    <textarea id="messageInput" placeholder="Type your message..."></textarea>
+                    <button id="sendButton">Send</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    </div>
+    <script src="chat.js"></script>
+</body>
+
+</html>
